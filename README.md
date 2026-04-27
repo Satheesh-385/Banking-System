@@ -47,7 +47,7 @@ Authorization: Bearer <token>
 Server validates token for every request
 ⚙️ Setup Instructions
 1. Clone the repository
-git clone https://github.com/your-username/banking-system.git
+git clone https://github.com/Satheesh-385/banking-system.git
 2. Import into Eclipse / IDE
 File → Import → Maven Project
 3. Configure Database
