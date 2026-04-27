@@ -4,12 +4,15 @@ import com.banking.entity.Account;
 import com.banking.entity.Transaction;
 import com.banking.repository.AccountRepository;
 import com.banking.repository.TransactionRepository;
+
+import jakarta.persistence.AssociationOverride;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
-
 @Service
 public class AccountServiceImpl implements AccountService {
 
@@ -19,6 +22,7 @@ public class AccountServiceImpl implements AccountService {
     @Autowired
     private TransactionRepository transactionRepository;
 
+    @Transactional
     @Override
     public void transfer(String fromAccount, String toAccount, double amount) {
 
