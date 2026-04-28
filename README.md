@@ -3,6 +3,7 @@
 A secure Spring Boot-based Banking System that uses JWT (JSON Web Token) for authentication and authorization. This project demonstrates backend development with REST APIs, Spring Security, and database integration.
 
 🚀 Features
+
 🔐 User Registration & Login
 🪪 JWT-based Authentication
 👤 Role-based Authorization (User/Admin)
@@ -18,7 +19,9 @@ Database: MySQL
 ORM: Spring Data JPA
 Build Tool: Maven
 IDE: Eclipse / IntelliJ
+
 📁 Project Structure
+
 banking-system
 │
 ├── src/main/java
@@ -78,15 +81,18 @@ You can test APIs using:
 
 Postman
 Swagger UI (if enabled)
+
 🔒 Security
 - Passwords encrypted using BCrypt  
 - JWT token-based authentication  
-- Token validation for every request 
+- Token validation for every request
+- 
 👨‍💻 Author
 
 Satheesh Thota
 
 📌 Future Improvements
+
 Add Swagger documentation
 Add email notifications
 Add transaction history filters
