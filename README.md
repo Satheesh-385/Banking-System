@@ -86,7 +86,7 @@ Swagger UI (if enabled)
 - Passwords encrypted using BCrypt  
 - JWT token-based authentication  
 - Token validation for every request
-- 
+  
 👨‍💻 Author
 
 Satheesh Thota
@@ -94,6 +94,9 @@ Satheesh Thota
 📌 Future Improvements
 
 Add Swagger documentation
+
 Add email notifications
+
 Add transaction history filters
+
 Deploy on AWS / Render
