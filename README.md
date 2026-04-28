@@ -79,9 +79,9 @@ You can test APIs using:
 Postman
 Swagger UI (if enabled)
 🔒 Security
-Passwords encrypted using BCrypt
-JWT token validation for every request
-Role-based access control
+- Passwords encrypted using BCrypt  
+- JWT token-based authentication  
+- Token validation for every request 
 👨‍💻 Author
 
 Satheesh Thota
