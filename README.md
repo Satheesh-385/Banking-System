@@ -6,13 +6,10 @@ A secure Spring Boot-based Banking System that uses JWT (JSON Web Token) for aut
 
 🔐 User Registration & Login
 🪪 JWT-based Authentication
-👤 Role-based Authorization (User/Admin)
-💳 Account Management (Create, View, Update)
-💰 Deposit & Withdraw functionality
-📊 Transaction tracking
 🛡️ Secure REST APIs using Spring Security
-🗄️ MySQL Database integration
-🛠️ Tech Stack
+🗄️ MySQL Database Integration
+⚙️ Backend built using Spring Boot & Spring Data JPA
+
 Backend: Java, Spring Boot
 Security: Spring Security, JWT
 Database: MySQL
